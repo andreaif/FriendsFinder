@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "description": "Friend Finder app demonstrating Node and Express with jQuery and AJAX. Overall purpose is a web app designed to help find a compatible friend. Set up web servers with Node.js using Express.",
   "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "path": "^0.12.7",
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -21,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/andreaif/FriendsFinder/issues"
   },
-  "homepage": "https://github.com/andreaif/FriendsFinder#readme"
+  "homepage": "https://github.com/andreaif/FriendsFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
 }
